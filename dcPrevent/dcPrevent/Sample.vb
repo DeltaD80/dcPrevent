@@ -18,7 +18,7 @@ Namespace dcPrevent
         End Sub
 
         Private Sub GlobalHookMouseDownExt(sender As Object, e As MouseEventExtArgs)
-            Console.WriteLine("MouseDown: " & vbTab & "{0}; " & vbTab & " System Timestamp: " & vbTab & "{1}", e.Button, e.Timestamp)
+            Console.WriteLine("BACCA: " & vbTab & "{0}; " & vbTab & " System Timestamp: " & vbTab & "{1}", e.Button, e.Timestamp)
 
             ' uncommenting the following line will suppress the middle mouse button click
             ' if (e.Buttons == MouseButtons.Middle) { e.Handled = true; }
