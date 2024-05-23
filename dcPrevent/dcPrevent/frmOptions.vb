@@ -119,7 +119,7 @@ Namespace dcPrevent
                     s.Start()
                     Return
                 End If
-                Log(String.Format("MouseDown " & vbTab & vbTab & " {0}" & vbLf, e.Button))
+                Log(String.Format("BACCA " & vbTab & vbTab & " {0}" & vbLf, e.Button))
                 s.Reset()
                 s.Start()
             End If
